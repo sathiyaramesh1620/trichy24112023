@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Bg_back{
+    height: 100vh;
+    background:url('https://demos.thementic.com/opencart/OPC02/OPC0200080/image/cache/catalog/demo/banners/main-banner-01-1903x838.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.6s;
+    padding: 115px 0;
+    z-index: 10;
+}
+
+header.sticky {
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 2.5rem;
+    background: white;
+    animation: top 0.7s ease;
+}
+
+@keyframes top {
+    50% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.sec_2{
+    z-index: 12;
+}
+.logo{
+    width: 152px;
+}
+.navbar{
+    background-color: #262626;
+}
+.navbar-toggle{
+    border: none!important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+    outline: none!important;
+    box-shadow: none!important;
+    border: none !important;
+    color: #CA282F;
+}
+.btn_1{
+    background: #7aa93c;
+    outline: none;
+    padding:.3rem 1.2rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.btn_1:hover{
+    background: #7aa93ce0;
+}
+.search{
+ outline: none;
+ border: none;
+ padding: 6px 45px 6px 15px;
+ background: transparent;
+ color: #ffffff;
+  font-size: 13px;
+ letter-spacing: 0.5px;
+ position: relative;
+}
+.search::placeholder{
+    color: #ddd;
+}
+.search:focus{
+    background: #262626;
+}
+.fa-search{
+    position: absolute;
+    color: white;
+    right: 65px;
+    top: 10px;
+    cursor: pointer;
+}
+i{
+    font-size:1.2rem;
+    transition: .4s;
+    cursor: pointer;
+}
+i:hover{
+    color: #CA282F;
+}
+.nav-link{
+    color: #000!important;
+    font-size: 12px!important;
+    font-weight:bold!important;
+}
+.nav-link:hover{
+    color: #CA282F!important;
+    transition: .4s ease-in;
+}
+.add_item{
+    background: #CA282F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    margin-right: 5rem;
+}
+.add_item:hover{
+    background: #000;
+    cursor: pointer;
+}
+.line_S{
+    border-right: 1px solid #ffffff;
+    margin: 0px 10px 0px 10px;
+}
+.btn_2{
+    border: none !important;
+}
+.btn_2:hover{
+    color: #CA282F!important;
+    transition: .2s ease-in;
+}
+/* sathiya code */
+.home_page{
+    background: url(./image/content-bg1.png);
+    background-repeat: no-repeat;
+   
+}
+.card-img-top{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+}
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -30px;
+    
+}
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 75px;
+}
+.card-img-top1 >.owl-prev,.owl-next{
+    position: absolute;
+    top: 250px;
+
+}
+
+
+.owl-prev span,.owl-next span{
+    font-size: 80px;
+    color: black;
+}
+
+
+/* 4 impage style */
+
+.banner-wrapper{
+    margin-bottom: 0;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+ul{
+    margin-top: 0;
+}
+.banner-item{
+    margin-bottom: 30px;
+}
+.banner-item-inner 
+{
+    text-decoration: none;
+}
+/* featuredpage */
+
+.card-img-top1{
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+}
+.item{
+    margin-bottom: 100px;
+}
+/* why they like us page */
+.profile-img {
+    border-radius: 25px;
+  }
+  
+  .name:hover {
+    color: rgb(245, 9, 48);
+    transition: 0.15s;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  /* ceelpage */
+
+  .home_page-end{
+    background-image: url(./image/15-400x250.jpg);
+    background-repeat: no-repeat;
+
+    
+    
+    
+
+  }
